@@ -1,0 +1,237 @@
+.page {
+    padding: 0 20px;
+}
+.page__banner {
+    background-image: url(/img/Banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: cover;
+}
+.banner__container {
+    min-height: 810px;
+    padding: 160px 20px 0 20px ;
+}
+.banner__header {
+    max-width: 320px;
+    margin: 0 auto 80px auto;
+    padding: 94px 0;
+    border: 1px solid #FFFFFF;
+}
+.banner__title {
+    font-family: "Post No Bills Jaffna";
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    text-align: center;
+}
+.banner__line {
+    width: 179px;
+    height: 1px;
+    margin: 0 auto 7px auto;
+    background-color: #FFFFFF;
+}
+.banner__subtitle {
+    font-size: 22px;
+    line-height: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.banner__txt {
+    max-width: 730px;
+    margin: 0 auto;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 24px;
+    padding: 0 0 0 0;
+}
+.page__mein {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+    gap: 0 80px;
+}
+.__left {
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+}
+.main__subtitle {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    text-align: center;
+    line-height: 42px;
+    padding: 93px 0 50px 0;
+    white-space: nowrap;
+}
+.main__line {
+    width: 120px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 0 auto 50px auto;
+}
+.mein__galery {
+    display: flex;
+    gap: 0 50px;
+}
+.main__name {
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 25px 0 0 0;
+}
+.main__price {
+    display: block;
+    font-family: "Playfair Display";
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #D0D0D0;
+    padding: 10px 0 93px 0;
+}
+.__right {
+    max-width: 880px;
+    width: 100%;
+    background-image: url(/img/man.jpg);
+    box-sizing: cover;
+    background-repeat: no-repeat;
+}
+.main__box {
+    max-width: 376px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 484px 0 0 0;
+}
+.__sub {
+    padding: 0 0 30px 0;
+}
+.__line {
+    margin: 0 auto 30px auto;
+}
+.main__form {
+    max-width: 138px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+.main__btn {
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: none;
+    padding: 12px 28px;
+    border: 1px solid #FFFFFF;
+}
+.page__collection {
+    display: flex;
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
+}
+.collection__background {
+    max-width: 880px;
+    width: 100%;
+    margin: 0 auto;
+}
+.collection__background img {
+    min-height: 600px;
+}
+.collection__block {
+    width:100%;
+    max-height: 600px ;
+}
+.collection__box {
+    max-width: 471px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0 0 0;
+}
+.collection__subtitle {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0 0 40px 0;
+}
+.collection_line {
+    width: 120px;
+    height: 1px;
+    background-color: #FFFFFF;
+    margin: 0 auto 40px auto;
+}
+.collection__txt {
+    font-size: 14px;
+    text-align: center;
+    line-height: 150%;
+    padding: 0 0 73px 0;
+}
+.collection__form {
+    max-width: 311px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 0 100px 0;
+}
+.collection__btn {
+    font-size: 18px;
+    line-height: 23px;
+    text-transform: uppercase;
+    padding: 12px 28px;
+    background: none;
+    border: 1px solid #FFFFFF;
+}
+.page_new {
+}
+.__new {
+}
+.new__container {
+}
+.__container {
+}
+.new__subtitle {
+    font-family: "Playfair Display";
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 120px 0 40px 0;
+}
+.new__line {
+    width: 120px;
+    height: 1px;
+    background: #FFFFFF;
+    margin: 0 auto 81px auto;
+}
+.new__block {
+    display: flex;
+    gap: 0 23px;
+}
+.new__box {
+}
+@media (max-width:1500px) {
+    .mein__galery {
+        gap: 0 10px;
+    }
+    .__right {
+        margin: 0 auto;
+    }
+}
+@media (max-width:1300px) {
+    .page__mein {
+        flex-direction: column;
+    }
+    .page__collection {
+        flex-direction: column-reverse;
+    } 
+}
+@media (max-width:768px) {
+    .mein__galery {
+        flex-direction: column;
+        align-items: center;
+    }
+}

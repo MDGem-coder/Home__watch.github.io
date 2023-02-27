@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&family=Playfair+Display:wght@400;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/post-no-bills-jaffna');
+@import url(/css/header.css);
+@import url(/css/mein.css);
+.body {
+    font-family: 'PT Sans', sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-style: normal;
+}
+.wrapper {
+    background: rgba(0, 0, 0, 1);
+    height: 100%;
+    overflow-x: hidden;
+}
+.__container {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}

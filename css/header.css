@@ -1,0 +1,163 @@
+.header {
+    box-sizing: content-box;
+    padding: 5px 20px 0 20px;
+}
+.header__block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.__top {
+    min-height: 44px;
+}
+.header__info {
+    display: flex;
+}
+.header__numbers {
+    padding: 0 15px 0 0;
+}
+.header__numbers img {
+    padding: 0 15px 0 0;
+}
+.header__work-time span {
+    padding: 0 15px;
+    border-left: 1px solid #969696;
+}
+.header__work-time time {
+    padding: 0 15px;
+    border-left: 1px solid #969696;
+}
+
+.header__tel,
+.header__work,
+.header__time,
+.header__open,
+.header__registration {
+    font-size: 12px;
+    line-height: 16px;
+    color: #969696;
+}
+.header__registration::before {
+    content: "/";
+}
+.__bot {
+    min-height: 80px;
+}
+.header__menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 60px 0 0;
+}
+.header__logotip {
+    font-family: "Post No Bills Jaffna";
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+}
+.header__burger-box {
+    display: none;
+}
+.header__list {
+    display: inline-flex;
+}
+.header__item:not(:last-child) {
+    padding: 0 40px 0 0;
+}
+.header__link {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+.header__network {
+    white-space: nowrap;
+}
+.header__cart {
+    padding: 0 40px 0 0;
+}
+@media (max-width:778px) {
+    .__top {
+        flex-direction: column;
+    }
+    .header__numbers {
+        padding: 0 5px 0 0;
+    }
+    .header__numbers img {
+        padding: 0 5px 0 0;
+    }
+    .header__work-time span {
+        padding: 0 5px;
+    }
+    .header__work-time time {
+        padding: 0 5px;
+    }
+    .header__authorization {
+        display: flex;
+        align-items: flex-end;
+    }
+    .header__menu {
+        padding: 0 20px 0 0;
+    }
+    .header__burger-box {
+        display: block;
+    }
+    .header__burger {
+        display: block;
+        width: 50px;
+        height: 50px;
+        background-color: #FFFFFF;
+        border-radius: 50%;
+        position: relative;
+    }
+    .header__burger span {
+        position: absolute;
+        width: 30px;
+        height: 2px;
+        top: 50%;
+        left: 20%;
+        background-color: #000000;
+    }
+    .header__burger span::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 2.5px;
+        top: 300%;
+        left: 0;
+        background-color: #000000;
+    }
+    .header__burger span::before {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 2.5px;
+        top: -300%;
+        left: 0;
+        background-color: #000000;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__item:not(:last-child) {
+        padding: 0 10px 0 0;
+    }
+    .header__cart {
+        padding: 0 10px 0 0;
+    }
+}
+@media (max-width:426px) {
+    .header__info {
+        flex-direction: column;
+        align-items: center;
+    }
+    .__bot {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+    .header__menu {
+        padding: 20px 0 0 0;
+    }
+}
